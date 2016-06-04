@@ -32,7 +32,37 @@
 	</div>
 </header>
 <!--HERO SECTION-->
-<section></section>
+<section id="hero">
+
+	<article>
+		<div class="container clearfix">
+			<div class="row">
+				<div class="col-sm-5">
+					<img src="assets/images/logo-badge.png" alt="Bootstrap to WordPress">
+				</div>
+				<div class="col-sm-7 hero-text">
+					<h1>Bootstrap to WordPress</h1>
+					<p class="lead">Earn An Extra $1K - $5K a Month by Learning to Code Your Very Own Responsive &amp; Custom WordPress Websites with Bootstrap</p>
+					<div id="price-timeline">
+						<div class="price active">
+							<h4>Pre-Launch Price <small>Ends soon!</small></h4>
+							<span>$149</span>
+						</div>
+						<div class="price">
+							<h4>Launch Price <small>Coming soon!</small></h4>
+							<span>$299</span>
+						</div>
+						<div class="price">
+							<h4>Final Price <small>Coming soon!</small></h4>
+							<span>$399</span>
+						</div>
+					</div>
+					<p><a href="" class="btn btn-lg btn-danger" href="#">Enroll &rarr;</a></p>
+				</div>
+			</div>
+		</div>
+	</article>
+</section>
 <!--OPT IN SECTION-->
 <section></section>
 <!--BOOST YOUR INCOME SECTION-->
