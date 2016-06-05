@@ -182,7 +182,16 @@
 	</div>
 </section>
 <!--VIDEO FEATURETTE SECTION-->
-<section></section>
+<section id="featurette">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<h2>Watch the Course Introduction</h2>
+
+			</div>
+		</div>
+	</div>
+</section>
 <!--INSTRUCTOR SECTION-->
 <section></section>
 <!--TESTIMONIAL SECTION-->
