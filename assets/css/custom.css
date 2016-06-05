@@ -112,3 +112,26 @@ section h3 { margin: 30px 0 10px; }
 #optin p { margin: 7px 0 0 0; }
 
 #who-benefits { background: white;}
+
+#course-features {
+	background: #3e4249;
+	color: white;
+	text-align: center;
+}
+
+/*CUSTOM ICON SPRITE*/
+i.ci {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background: url("../images/icon-sprite.png") no-repeat;
+}
+/*access the sprite images by thinking of looking through a window and moving a piece
+of paper to the left */
+.ci.ci-computer { background-position: 0 0; }
+.ci.ci-watch { background-position: -40px 0; }
+.ci.ci-calender { background-position: -80px 0; }
+.ci.ci-community { background-position: -120px 0; }
+.ci.ci-instructor { background-position: -160px 0; }
+.ci.ci-device { background-position: -200px 0; }
+
