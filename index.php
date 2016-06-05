@@ -30,7 +30,7 @@
 	</div>
 </header>
 <!--HERO SECTION-->
-<section id="hero">
+<section id="hero" data-type="background" data-speed="5">
 
 	<article>
 		<div class="container clearfix">
