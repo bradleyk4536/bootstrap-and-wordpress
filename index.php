@@ -1,34 +1,4 @@
 <?php include("includes/header.php"); ?>
-<header class="site-header" role="banner">
-<!--	NAVBAR-->
-	<div class="navbar-wraper">
-
-		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt=""></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="resources.html">Resources</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-	</div>
-</header>
 <!--HERO SECTION-->
 <section id="hero" data-type="background" data-speed="5">
 
@@ -313,29 +283,5 @@
 		</div>
 	</div>
 </section>
-<!--FOOTER SECTION-->
-<footer>
-	<div class="container">
-		<div class="col-sm-3">
-			<p><a href="#"></a><img src="assets/images/logo.png" alt="Bootstrap to WordPress"></p>
-		</div>
-		<div class="col-sm-6">
-			<nav>
-				<ul class="list-unstyled list-inline">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Resources</a></li>
-					<li><a href="#">Contact</a></li>
-					<li class="signup-link"><a href="#">Sign up now</a></li>
-				</ul>
-			</nav>
-		</div>
-		<div class="col-sm-3">
-			<p class="pull-right">&copy; 2016 Kenneth Bradley</p>
-		</div>
-	</div>
-</footer>
-<!--MODAL SECTION-->
-<?php include("includes/modal.php"); ?>
 <!--HTML FOOTER SECTION-->
 <?php include("includes/footer.php"); ?>
