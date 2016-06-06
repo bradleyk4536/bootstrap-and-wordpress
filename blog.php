@@ -74,6 +74,47 @@
 						</div>
 					</article>
 				</main>
+<!--				SIDE BAR-->
+					<aside class="col-sm-4">
+						<div class="widget">
+							<h4>Join our mailing list</h4>
+							<p>Keep up to date with the latest news, and we'll <strong>seny you special as a thank you.</strong></p>
+							<button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">Subscribe</button>
+						</div>
+						<div class="widget">
+							<form action="" role="form" class="search-form">
+								<label for="sidebar-search" class="sr-only">Search Blog</label>
+								<input type="text" id="sidebar-search" placeholder="Search the blog">
+							</form>
+						</div>
+						<div class="widget">
+							<h4>About Bootstrap to WordPress</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid natus obcaecati omnis veritatis accusamus aspernatur, quam est ea quaerat autem inventore, fugit accusantium aliquam assumenda, enim sint adipisci ipsum esse.</p>
+						</div>
+						<div class="widget">
+							<h4>Recent Post</h4>
+							<ul>
+								<li><a href="">Blog Post 1</a></li>
+								<li><a href="">Blog Post 1</a></li>
+								<li><a href="">Blog Post 1</a></li>
+								<li><a href="">Blog Post 1</a></li>
+								<li><a href="">Blog Post 1</a></li>
+							</ul>
+
+						</div>
+						<div class="widget">
+							<h4>Categories</h4>
+							<ul>
+								<li><a href="">Blog Post 1</a></li>
+								<li><a href="">Blog Post 1</a></li>
+								<li><a href="">Blog Post 1</a></li>
+								<li><a href="">Blog Post 1</a></li>
+								<li><a href="">Blog Post 1</a></li>
+								<li><a href="">Blog Post 1</a></li>
+							</ul>
+
+						</div>
+					</aside>
 			</div>
 		</div>
 	<!--SIGNUP SECTION-->
