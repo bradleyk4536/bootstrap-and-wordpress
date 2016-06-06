@@ -155,6 +155,32 @@ section { padding: 80px 0; }
 section h2 { margin: 20px 0 40px; }
 section h3 { margin: 30px 0 10px; }
 
+#primary {
+	padding: 40px 0;
+}
+
+.feature-image {
+	display: table;
+	width: 100%;
+}
+
+.feature-image-default {
+	background: url('../images/stuff-feature.jpg') no-repeat;
+	background-size: cover;
+}
+
+.feature-image-default-alt {
+	background: url('../images/hipster-stuff.jpg') no-repeat;
+	background-size: cover;
+}
+
+.feature-image h1 {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+}
+
 #optin {
 	background: #3e4249;
 	color: white;
@@ -242,6 +268,67 @@ footer a:link, footer a:visted { color: white; }
 footer a:hover { color: #dd5638; }
 footer li.signup-link a { color: #dd5638; }
 footer li.signup-link a:hover { font-weight: bold; }
+
+/*BLOG STYLES*/
+.post {
+	background: white;
+	border: 1px solid #ddd;
+	border-radius:  4px;
+	margin: 0 0 40px;
+	position: relative;
+}
+
+.post header,
+.post .post-excerpt { padding: 20px; }
+
+.post header h1,
+.post header h3 {
+	border-bottom: 1px solid #ddd;
+	margin: 0 0 15px;
+	padding: 0 0 15px;
+}
+
+.post header h1 { font-size: 99px; }
+.post-image { height: auto; }
+.post-details {
+	font-size: 12px;
+	width: 90%;
+}
+.post-details i.fa { padding-left: 10px; }
+.post-details i.fa:first-child {
+	padding: 0px;
+}
+
+/*COMMENTS ICON*/
+.post-comments-badge {
+	height: 70px;
+	width: 70px;
+	position: absolute;
+	top: 25px;
+	right: 20px;
+	border: none;
+	border-radius: 100%;
+	background: #79b044;
+	text-align: center;
+	display: table;
+}
+
+.post-comments-badge a {
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.post-comments-badge i.fa {
+	display: block;
+	font-size: 15px;
+	padding: 0;
+	margin-bottom: 4px;
+}
+
+.post-comments-badge:hover { background-color: #8bc653; }
 
 /*CUSTOM ICON SPRITE*/
 i.ci {

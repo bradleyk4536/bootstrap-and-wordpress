@@ -11,12 +11,12 @@
 						<header>
 							<h3><a href="post.html">Blog title here</a></h3>
 							<div class="post-details">
-								<span class="glyphicon glyphicon-user"></span>Ken Bradley
-								<span class="glyphicon glyphicon-time"></span><time>August 7 2016</time>
-								<span class="glyphicon glyphicon-folder-open-alt"></span><a href="">Tutorials</a>, <a href="">Coding</a>
-								<span class="glyphicon glyphicon-tags"></span><a href="">WordPress</a>, <a href="">Premium</a>, <a href="">another tag</a>, <a href="">Yadda</a>
+								<i class="fa fa-user"></i>Ken Bradley
+								<i class="fa fa-clock-o"></i><time>August 7 2016</time>
+								<i class="fa fa-folder"></i><a href="">Tutorials</a>, <a href="">Coding</a>
+								<i class="fa fa-tags"></i><a href="">WordPress</a>, <a href="">Premium</a>, <a href="">another tag</a>, <a href="">Yadda</a>
 								<div class="post-comments-badge">
-									<a href=""><span class="glyphicon glyphicon-comments"></span>168</a>
+									<a href=""><i class="fa fa-comments"></i>168</a>
 								</div>
 							</div>
 						</header>
@@ -33,12 +33,12 @@
 						<header>
 							<h3><a href="post.html">Blog title here</a></h3>
 							<div class="post-details">
-								<span class="glyphicon glyphicon-user"></span>Ken Bradley
-								<span class="glyphicon glyphicon-time"></span><time>August 7 2016</time>
-								<span class="glyphicon glyphicon-folder-open-alt"></span><a href="">Tutorials</a>, <a href="">Coding</a>
-								<span class="glyphicon glyphicon-tags"></span><a href="">WordPress</a>, <a href="">Premium</a>, <a href="">another tag</a>, <a href="">Yadda</a>
+								<i class="fa fa-user"></i>Ken Bradley
+								<i class="fa fa-time"></i><time>August 7 2016</time>
+								<i class="fa fa-folder"></i><a href="">Tutorials</a>, <a href="">Coding</a>
+								<i class="fa fa-tags"></i><a href="">WordPress</a>, <a href="">Premium</a>, <a href="">another tag</a>, <a href="">Yadda</a>
 								<div class="post-comments-badge">
-									<a href=""><span class="glyphicon glyphicon-comments"></span>168</a>
+									<a href=""><i class="fa fa-comments"></i>168</a>
 								</div>
 							</div>
 						</header>
@@ -55,12 +55,12 @@
 						<header>
 							<h3><a href="post.html">Blog title here</a></h3>
 							<div class="post-details">
-								<span class="glyphicon glyphicon-user"></span>Ken Bradley
-								<span class="glyphicon glyphicon-time"></span><time>August 7 2016</time>
-								<span class="glyphicon glyphicon-folder-open-alt"></span><a href="">Tutorials</a>, <a href="">Coding</a>
-								<span class="glyphicon glyphicon-tags"></span><a href="">WordPress</a>, <a href="">Premium</a>, <a href="">another tag</a>, <a href="">Yadda</a>
+								<i class="fa fa-user"></i>Ken Bradley
+								<i class="fa fa-time"></i><time>August 7 2016</time>
+								<i class="fa fa-folder"></i><a href="">Tutorials</a>, <a href="">Coding</a>
+								<i class="fa fa-tags"></i><a href="">WordPress</a>, <a href="">Premium</a>, <a href="">another tag</a>, <a href="">Yadda</a>
 								<div class="post-comments-badge">
-									<a href=""><span class="glyphicon glyphicon-comments"></span>168</a>
+									<a href=""><i class="fa fa-comments"></i>168</a>
 								</div>
 							</div>
 						</header>
