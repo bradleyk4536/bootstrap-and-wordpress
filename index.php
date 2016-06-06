@@ -249,7 +249,59 @@
 	</div>
 </section>
 <!--TESTIMONIAL SECTION-->
-<section></section>
+<section id="kudos">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<h2>What People Are Saying About Brad</h2>
+				<div class="row testimonial">
+					<div class="col-sm-4">
+						<img src="assets/images/brennan.jpg" alt="Brenan">
+					</div>
+					<div class="col-sm-8">
+						<blockquote>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim necessitatibus vitae nesciunt molestiae sint possimus nihil nam minima porro. Animi dolore adipisci nostrum, sed itaque, ducimus atque hic quibusdam facilis!
+							<cite>&mdash; Bennan, graduate of all of Brads courses.</cite>
+						</blockquote>
+					</div>
+				</div>
+				<div class="row testimonial">
+					<div class="col-sm-4">
+						<img src="assets/images/ben.png" alt="Man with mustache">
+					</div>
+					<div class="col-sm-8">
+						<blockquote>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim necessitatibus vitae nesciunt molestiae sint possimus nihil nam minima porro. Animi dolore adipisci nostrum, sed itaque, ducimus atque hic quibusdam facilis!
+							<cite>&mdash; Ben, graduate of all of Brads courses.</cite>
+						</blockquote>
+					</div>
+				</div>
+				<div class="row testimonial">
+					<div class="col-sm-4">
+						<img src="assets/images/aj.png" alt="AJ">
+					</div>
+					<div class="col-sm-8">
+						<blockquote>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim necessitatibus vitae nesciunt molestiae sint possimus nihil nam minima porro. Animi dolore adipisci nostrum, sed itaque, ducimus atque hic quibusdam facilis!
+							<cite>&mdash; AJ, graduate of all of Brads courses.</cite>
+						</blockquote>
+					</div>
+				</div>
+				<div class="row testimonial">
+					<div class="col-sm-4">
+						<img src="assets/images/ernest.png" alt="Illustration of man with goatee">
+					</div>
+					<div class="col-sm-8">
+						<blockquote>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim necessitatibus vitae nesciunt molestiae sint possimus nihil nam minima porro. Animi dolore adipisci nostrum, sed itaque, ducimus atque hic quibusdam facilis!
+							<cite>&mdash; Ernest, graduate of all of Brads courses.</cite>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 <!--SIGNUP SECTION-->
 <section></section>
 <!--FOOTER SECTION-->
