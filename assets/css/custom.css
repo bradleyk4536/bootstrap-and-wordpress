@@ -24,6 +24,15 @@ h1, h2 { margin: 0 0 40px; }
 h3 { margin: 20px 0; }
 h4 { font-size: 18px; }
 
+p { margin: 15px; }
+p.lead { font-weight: normal; }
+
+/*a:link, a:visited { color: #dd5638; }*/
+a:hover {
+	text-decoration: none;
+	color: #c9302c;
+}
+
 button, input, .btn, a.btn {
 	color: whit;
 	text-rendering:optimizeLegibility;
@@ -139,6 +148,8 @@ blockqoute cite {
 blockqoute:before { display: none; }
 
 /*LAYOUT*/
+.row + .row { margin-top: 20px; }
+
 section { padding: 80px 0; }
 .section-header{ text-align: center; }
 section h2 { margin: 20px 0 40px; }
@@ -219,6 +230,18 @@ section h3 { margin: 30px 0 10px; }
 #signup h2 strong { border-bottom: 2px solid #dd5638; }
 #signup .btn { font-size: 24px; }
 
+footer {
+	background: #3e4249;
+	color: white;
+	padding: 20px 0 10px;
+	font-size: 12px;
+}
+
+footer p { margin: 0; }
+footer a:link, footer a:visted { color: white; }
+footer a:hover { color: #dd5638; }
+footer li.signup-link a { color: #dd5638; }
+footer li.signup-link a:hover { font-weight: bold; }
 
 /*CUSTOM ICON SPRITE*/
 i.ci {
@@ -236,3 +259,25 @@ of paper to the left */
 .ci.ci-instructor { background-position: -160px 0; }
 .ci.ci-device { background-position: -200px 0; }
 
+/*MEDIA QUERIES TO OVERRIDE DEFAULTS*/
+@media screen and ( max-width : 991px ) {
+	#instructor .container {background: rgba(255, 255, 255, 0.8); }
+}
+
+@media screen and ( max-width : 766px ) {
+	.logo { width: 50%; }
+	#optin p { margin: 0 0 10px; }
+
+	#featurette iframe { height: 240px }
+}
+
+@media screen and ( max-width: 568px ) {
+	#instructor .num {
+			height: 100px;
+			width: 100px;
+			font-size: 22px;
+	}
+
+	#instructor .num span { font-size: 16px; }
+
+}

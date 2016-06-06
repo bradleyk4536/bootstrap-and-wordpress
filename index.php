@@ -314,7 +314,27 @@
 	</div>
 </section>
 <!--FOOTER SECTION-->
-<footer></footer>
+<footer>
+	<div class="container">
+		<div class="col-sm-3">
+			<p><a href="#"></a><img src="assets/images/logo.png" alt="Bootstrap to WordPress"></p>
+		</div>
+		<div class="col-sm-6">
+			<nav>
+				<ul class="list-unstyled list-inline">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Resources</a></li>
+					<li><a href="#">Contact</a></li>
+					<li class="signup-link"><a href="#">Sign up now</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="col-sm-3">
+			<p class="pull-right">&copy; 2016 Kenneth Bradley</p>
+		</div>
+	</div>
+</footer>
 <!--MODAL SECTION-->
 <?php include("includes/modal.php"); ?>
 <!--HTML FOOTER SECTION-->
