@@ -279,7 +279,8 @@ footer li.signup-link a:hover { font-weight: bold; }
 }
 
 .post header,
-.post .post-excerpt { padding: 20px; }
+.post .post-excerpt,
+.post .post-body { padding: 20px; }
 
 .post header h1,
 .post header h3 {
