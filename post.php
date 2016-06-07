@@ -30,6 +30,66 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi sed quia iusto rem officia molestias soluta! Accusamus reiciendis mollitia illo tenetur saepe voluptate corrupti facere cum. Aut cum, repellendus ab!</p>
 						</div>
 			</article>
+			<div id="comments">
+				<div class="comments-wrap">
+					<h3>4 comments</h3>
+					<ol class="comments-list">
+						<li class="comment">
+							<h4>John Smith <small>&bull; August 12, 2014</small></h4>
+							<div class="comment-body">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptas quia eveniet, voluptatum non quasi quam illo voluptates dolor numquam, libero ab consequuntur possimus sunt incidunt reiciendis vitae rerum temporibus!</p>
+							</div>
+							<ol class="children">
+								<li class="comment">
+									<h4>Cris Mccopper <small>&bull; August 12, 2014</small></h4>
+									<div class="comment-body">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptas quia eveniet, voluptatum non quasi quam illo voluptates dolor numquam, libero ab consequuntur possimus sunt incidunt reiciendis vitae rerum temporibus!</p>
+									</div>
+							<ol class="children">
+								<li class="comment">
+									<h4>Jon Dee <small>&bull; August 12, 2014</small></h4>
+									<div class="comment-body">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptas quia eveniet, voluptatum non quasi quam illo voluptates dolor numquam, libero ab consequuntur possimus sunt incidunt reiciendis vitae rerum temporibus!</p>
+									</div>
+								</li>
+							</ol>
+								</li>
+							</ol>
+						</li>
+						<li class="comment">
+							<h4>Jane Smith <small>&bull; August 12, 2014</small></h4>
+							<div class="comment-body">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit voluptas quia eveniet, voluptatum non quasi quam illo voluptates dolor numquam, libero ab consequuntur possimus sunt incidunt reiciendis vitae rerum temporibus!</p>
+							</div>
+						</li>
+					</ol>
+					<div class="leave-comment">
+					<h3>Leave a comment</h3>
+						<form action="">
+							<p>Your email address will not be published. Required fields are marked. <span class="required">*</span></p>
+							<p class="comment-form-author">
+							<label for="author">Name *</label>
+							<input type="text" id="author">
+							</p>
+							<p class="comment-form-email">
+							<label for="email">Email *</label>
+							<input type="email" id="email">
+							</p>
+							<p class="comment-form-url">
+							<label for="url">Website</label>
+							<input type="url" id="url">
+							</p>
+							<p class="comment-form-comment">
+							<label for="comment">Comment *</label>
+							<textarea name="" id="comment" cols="45" rows="8"></textarea>
+							</p>
+							<p class="form-submit">
+							<input class="btn btn-success" type="submit" name="submit">
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
 		</div>
 <!--				SIDE BAR-->
 					<aside class="col-sm-4">
