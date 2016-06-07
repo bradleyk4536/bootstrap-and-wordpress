@@ -117,6 +117,7 @@
 					</aside>
 			</div>
 		</div>
+	</div>
 	<!--SIGNUP SECTION-->
 		<section id="signup" data-type="background" data-speed="4">
 			<div class="container">
@@ -128,6 +129,6 @@
 				</div>
 			</div>
 		</section>
-	</div>
+
 <!--MODAL SECTION-->
 <?php include ("includes/footer.php"); ?>

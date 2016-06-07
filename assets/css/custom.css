@@ -151,6 +151,7 @@ blockqoute:before { display: none; }
 .row + .row { margin-top: 20px; }
 
 section { padding: 80px 0; }
+section.main-content { padding: 0; }
 .section-header{ text-align: center; }
 section h2 { margin: 20px 0 40px; }
 section h3 { margin: 30px 0 10px; }
@@ -386,6 +387,16 @@ footer li.signup-link a:hover { font-weight: bold; }
 
 }
 
+/*RESOURCES*/
+.resource {
+	width: 31.33333333%;
+	float: left;
+	margin: 0 3% 40px 0;
+}
+.resource:nth-child(3n) {
+	margin-right: 0;
+}
+
 /*CUSTOM ICON SPRITE*/
 i.ci {
 	display: inline-block;
@@ -432,11 +443,16 @@ textarea {
 	#instructor .container {background: rgba(255, 255, 255, 0.8); }
 }
 
-@media screen and ( max-width : 766px ) {
+@media screen and ( max-width : 768px ) {
 	.logo { width: 50%; }
 	#optin p { margin: 0 0 10px; }
-
 	#featurette iframe { height: 240px }
+
+	.resource {
+		width: 48%;
+		margin-right: 2%;
+		min-height: 800px;
+	}
 }
 
 @media screen and ( max-width: 568px ) {
@@ -447,5 +463,10 @@ textarea {
 	}
 
 	#instructor .num span { font-size: 16px; }
+	.resource {
+		width: 100%;
+		margin-right: 0%;
+		min-height: 0px;
+	}
 
 }
